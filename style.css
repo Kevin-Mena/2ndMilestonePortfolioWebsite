@@ -26,10 +26,6 @@
   /* Primary/B400 */
 
   color: #6070ff;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -66,10 +62,6 @@
   line-height: 24px;
   padding-left: 12px;
   color: #344563;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -93,7 +85,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  padding-left: ;
 }
 
 .list-item {
