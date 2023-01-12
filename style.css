@@ -39,6 +39,7 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 60px;
 }
 
 .first-page .div-header {
@@ -93,6 +94,9 @@ a {
 .work-section {
   background: #e5e5e5;
   width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
 }
 
 .work-section .card {
@@ -238,6 +242,7 @@ a {
 .about-myself {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 
 .div-about {
@@ -374,4 +379,10 @@ textarea {
   margin-bottom: 1rem;
   border: 1px solid #fff;
   border-radius: 1rem;
+}
+
+.list-lang {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  list-style-type: none;
 }
