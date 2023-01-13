@@ -383,6 +383,24 @@ textarea {
 
 .list-lang {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 100px 1fr;
   list-style-type: none;
+}
+
+.list-lang-item {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  align-items: center;
+}
+
+.list-img {
+  float: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
