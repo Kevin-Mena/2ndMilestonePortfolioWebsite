@@ -351,7 +351,7 @@ a {
   background-image: url(images/contac-shape-bg.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
-  background-position: 310px 0px;
+  background-position: 310px 0;
   border-top-left-radius: 60px;
 }
 
@@ -364,8 +364,15 @@ a {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  padding-top: 2rem;
+  padding-top: 8rem;
   color: #fff;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.div-contact {
+  min-width: 300px;
+  max-width: 500px;
 }
 
 .contact-descr {
@@ -377,10 +384,16 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  width: 70%;
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
+  flex-wrap: nowrap;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 .contact-form input,
@@ -409,19 +422,20 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 16px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
-  padding: 10px;
+  padding: 8px;
   border-radius: 8px;
   border: none;
   margin-left: 1.5rem;
+  width: 20%;
+  margin-bottom: 0.5rem;
 }
 
 .btn-submit:hover {
   background-color: #6070ff;
-  background: transparent;
   color: #fff;
 }
