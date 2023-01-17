@@ -348,16 +348,16 @@ a {
 }
 
 .contact-section {
-  background-image: url('images/contac-shape-bg.svg');
+  background-image: url(images/contac-shape-bg.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
-  background-position: 160px 40px;
-  border-top-left-radius: 50px;
+  background-position: 310px 0px;
+  border-top-left-radius: 60px;
 }
 
 .contact-header {
   width: 60vw;
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -369,7 +369,7 @@ a {
 }
 
 .contact-descr {
-  margin: 0 auto;
+  margin: 22px auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -377,7 +377,6 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  padding: 1rem;
 }
 
 .contact-form {
@@ -395,9 +394,14 @@ a {
   display: flex;
   align-items: center;
   margin: 5px auto;
-  padding: 5px 5px;
+  padding: 15px 16px;
   border: none;
+  outline: none;
   border-radius: 8px;
+}
+
+.contact-form textarea {
+  resize: none;
 }
 
 .btn-submit {
@@ -418,5 +422,6 @@ a {
 
 .btn-submit:hover {
   background-color: #6070ff;
+  background: transparent;
   color: #fff;
 }
