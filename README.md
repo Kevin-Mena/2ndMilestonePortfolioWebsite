@@ -169,13 +169,7 @@ I would like to thank everyone whose idea and code was used.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[What can I benefit by using the code in this project?]**
 
-  - [Enhance knowledge sharing by learning new techniques used in the code.]
-
-- **[Can the code be used for learning purposes?]**
-
-  - [Yes,the codebase used may have solution approaches to coding problems which may be used for learning purposes]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
