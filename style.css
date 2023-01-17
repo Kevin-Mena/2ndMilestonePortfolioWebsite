@@ -108,6 +108,7 @@ a {
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   border: 1px solid #dfe1e6;
+  margin-bottom: 3rem;
 }
 
 .section-img {
@@ -322,65 +323,6 @@ a {
   color: #253858;
 }
 
-.contact-section {
-  background-image: url('images/contact.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.contact-header {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  line-height: 52px;
-  color: #fff;
-  margin-top: 4rem;
-}
-
-.cont-info {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #ebebff;
-  width: 90%;
-  font-family: 'Poppins', sans-serif;
-  line-height: 24px;
-  padding-bottom: 1rem;
-}
-
-input[type="text"] {
-  width: 90%;
-  height: 4rem;
-  margin-left: 2em;
-  margin-right: 2em;
-  border: 1px solid #fff;
-  border-radius: 1rem;
-}
-
-.div-input1 {
-  margin-bottom: 0.5rem;
-}
-
-textarea {
-  width: 90%;
-  height: 8rem;
-  margin-top: 2rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  border: 1px solid #fff;
-  border-radius: 1rem;
-}
-
 .list-lang {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -403,4 +345,79 @@ textarea {
   float: left;
   padding-right: 1rem;
   padding-bottom: 1rem;
+}
+
+.contact-section {
+  background-image: url('images/contact.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vw;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.contact-header {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.contact-descr {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding: 1rem;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  margin: 5px auto;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-submit {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 1.5rem;
+}
+
+.btn-submit:hover {
+  background-color: royalblue;
+  color: #fff;
 }
