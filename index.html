@@ -6,17 +6,17 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="style.css">
             <title>simpleweb</title>
-        </head>
+        </head> 
         <body>
             
         <header>
-
+      <!--  navigation bar -->
             <nav class="toolbar">
                 <div class="logo"><a href="#">My Logo</a></div>
                 <div class="menu-icon"><img src="images/menu.png" alt="follow me on angellist" width="24" height="24" ></div>
             </nav>
          </header>
-             
+            <!--  header section -->
              <section class="first-page">
           <div class="div-header">
 
@@ -34,7 +34,7 @@
                 </ul>
                 </div>
         </section>  
-
+<!-- work section -->
             <section class="work-section">
                <div class="card">
             <div class="section-img"><img src="images/snapshoot1.png"></div>
@@ -112,7 +112,7 @@
         </div>
         </div>
     </section> 
-
+<!-- about section -->
           <section class="about-myself">
             <div class="div-about">
             <h2 class="about-header">About Myself</h2>  
@@ -144,14 +144,24 @@
                    </div>
                 </div>
           </section>
-
-         <section class="contact-section">
+<!-- contact section -->
+          <section class="contact-section">
             <div class="div-contact">
-            <h2 class="contact-header">Contact me</h2>  
-            <p class="cont-info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-            <div class="div-input1"> <input type="text" name="name" ></div>
-            <div class="div-input2"><input type="text" name="name" ></div>
-            <div><textarea placeholder="Write your message here"></textarea></div>
-            <button class="btn-project">Get It Touch</button>
-        </div>
-         </section>
+              <h1 class="contact-header">Contact me</h1>
+              <p class="contact-descr">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </div>
+
+           <div class="wrapper">
+             <form action="https://formspree.io/f/xrgvbqro" method="post" class="contact-form">
+             
+               <input type="text" id="name" name="name-label" maxlength="30" placeholder="Enter your name" required>
+               <input type="email" id="email" name="email-label"placeholder="Enter your email" required>
+               <textarea id="textarea" name="text-area" maxlength="500" rows="6" cols="50" placeholder="Write your message here" required ></textarea>
+                <button class="btn-submit" type="submit">Get It Touch</button>
+            </div>
+
+        </form>
+
+          </section>
+
+        
