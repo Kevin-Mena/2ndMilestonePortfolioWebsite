@@ -1,22 +1,22 @@
 {
-  "name": "firstmilestoneweb",
+  "name": "4thmilestoneportfoliowebsite",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kevin-Mena/Firstmilestoneweb.git"
+    "url": "git+https://github.com/Kevin-Mena/4thMilestonePortfolioWebsite.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kevin-Mena/Firstmilestoneweb/issues"
+    "url": "https://github.com/Kevin-Mena/4thMilestonePortfolioWebsite/issues"
   },
-  "homepage": "https://github.com/Kevin-Mena/Firstmilestoneweb#readme",
+  "homepage": "https://github.com/Kevin-Mena/4thMilestonePortfolioWebsite#readme",
   "devDependencies": {
     "hint": "^7.1.3",
     "stylelint": "^13.13.1",

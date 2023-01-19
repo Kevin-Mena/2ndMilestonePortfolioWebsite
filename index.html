@@ -5,7 +5,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="style.css">
-            <title>simpleweb</title>
+            <title>Portfolioweb</title>
         </head> 
         <body>
             
@@ -13,18 +13,24 @@
       <!--  navigation bar -->
             <nav class="toolbar">
                 <div class="logo"><a href="#">My Logo</a></div>
-                <div class="menu-icon"><img src="images/menu.png" alt="follow me on angellist" width="24" height="24" ></div>
+                <div class="nav-div">
+                    <ul class="nav-link">
+                        <li class="nav-link-item"><a href="#">Portfolio</a></li>
+                        <li class="nav-link-item"><a href="#">About</a></li>
+                        <li class="nav-link-item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
          </header>
             <!--  header section -->
              <section class="first-page">
           <div class="div-header">
 
-           <h1 class="header">I'm Kevin Glad to see you!</h1>  
+           <h1 class="header">I'm Alexandra Glad to see you!</h1>  
          <p class="about-par">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                
                     <a class="connect-page">LET'S CONNECT</a>
-                
+                <!-- social pages -->
                 <ul class="list">
                     <li class="list-item"><img src="images/tweeter.png" alt="follow me on twitter" width="20" height="20" ></li>
                     <li class="list-item"><img src="images/linkedin.png" alt="follow me on linkedin" width="20" height="20" ></li>
@@ -32,22 +38,68 @@
                     <li class="list-item"><img src="images/github.png" alt="follow me on github" width="20" height="20" ></li>
                     <li class="list-item"><img src="images/angelist.png" alt="follow me on angellist" width="20" height="20" ></li>
                 </ul>
-                </div>
+            </div>
         </section>  
 <!-- work section -->
             <section class="work-section">
-               <div class="card">
-            <div class="section-img"><img src="images/snapshoot1.png"></div>
+
+                <!-- ....card1 div.... -->
+               <div class="card card1">
+            <div class="section-img"><img src="images/snapshoot5.png"></div>
             <div class="card-info">
             <h2 class="work-header">Tonic</h2>
             <ul class="descr-list">
                 <li class="descr-list-item1">CANOPY</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"> End Dev</li>
+                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png">Back End Dev</li>
                 <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2015</li>
             </ul>
             <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="lang-list">
                 <li class="lang-list-descr">html</li>
+                <li  class="lang-list-descr">css</li>
+                <li  class="lang-list-descr">javaScript</li>
+            </ul>
+            <button class="btn-project">See Project</button>
+        </div>
+        </div>
+       
+        <!-- ....card2 div.... -->
+        <div class="card card2">
+           
+            <div class="card-info">
+            <h2 class="work-header">Multi-Post
+                Stories</h2>
+            <ul class="descr-list">
+                <li class="descr-list-item1">FACEBOOK</li>
+                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png">Full Stack Dev</li>
+                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2015</li>
+            </ul>
+            <p class="lang-descr">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+            <ul class="lang-list">
+                <li class="lang-list-descr">html</li>
+                <li class="lang-list-descr">Ruby on rails</li>
+                <li  class="lang-list-descr">css</li>
+                <li  class="lang-list-descr">javaScript</li>
+            </ul>
+            <button class="btn-project">See Project</button>
+        </div>
+        <div class="section-img"><img src="images/snapshoot4.png"></div>
+        </div>
+
+        <!-- ....card3 div.... -->
+        <div class="card card3">
+            <div class="section-img"><img src="images/snapshoot1.png"></div>
+            <div class="card-info">
+            <h2 class="work-header">Facebook 360</h2>
+            <ul class="descr-list">
+                <li class="descr-list-item1">FACEBOOK</li>
+                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"> Full Stack Dev</li>
+                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2015</li>
+            </ul>
+            <p class="lang-descr">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+            <ul class="lang-list">
+                <li class="lang-list-descr">html</li>
+                <li class="lang-list-descr">Ruby on rails</li>
                 <li  class="lang-list-descr">css</li>
                 <li  class="lang-list-descr">javaScript</li>
             </ul>
@@ -55,15 +107,16 @@
         </div>
         </div>
 
-        <div class="card">
-            <div class="section-img"><img src="images/snapshoot2.png"></div>
+      <!-- ....card4 div.... -->
+
+        <div class="card card4">
+            
             <div class="card-info">
-            <h2 class="work-header">Multi-Post
-                Stories</h2>
+            <h2 class="work-header">Uber Navigation</h2>
             <ul class="descr-list">
-                <li class="descr-list-item1">CANOPY</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"> End Dev</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2015</li>
+                <li class="descr-list-item1">Uber</li>
+                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png">Lead Developer</li>
+                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2018</li>
             </ul>
             <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="lang-list">
@@ -73,53 +126,17 @@
             </ul>
             <button class="btn-project">See Project</button>
         </div>
-        </div>
-        <div class="card">
-            <div class="section-img"><img src="images/snapshoot3.png"></div>
-            <div class="card-info">
-            <h2 class="work-header">Tonic</h2>
-            <ul class="descr-list">
-                <li class="descr-list-item1">CANOPY</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"> End Dev</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2015</li>
-            </ul>
-            <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="lang-list">
-                <li class="lang-list-descr">html</li>
-                <li  class="lang-list-descr">css</li>
-                <li  class="lang-list-descr">javaScript</li>
-            </ul>
-            <button class="btn-project">See Project</button>
-        </div>
-        </div>
-        <div class="card">
-            <div class="section-img"><img src="images/snapshoot4.png"></div>
-            <div class="card-info">
-            <h2 class="work-header">Multi-Post
-                Stories</h2>
-            <ul class="descr-list">
-                <li class="descr-list-item1">CANOPY</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"> End Dev</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png">2015</li>
-            </ul>
-            <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="lang-list">
-                <li class="lang-list-descr">html</li>
-                <li  class="lang-list-descr">css</li>
-                <li  class="lang-list-descr">javaScript</li>
-            </ul>
-            <button class="btn-project">See Project</button>
-        </div>
+        <div class="section-img"><img src="images/snapshoot2.png"></div>
         </div>
     </section> 
 <!-- about section -->
           <section class="about-myself">
             <div class="div-about">
+                <div class="div-descr">
             <h2 class="about-header">About Myself</h2>  
             <p class="self-descr">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                   
-                       <a class="connect-page">LET'S CONNECT</a>
-                   
+                       <a class="connect-page">LET'S CONNECT</a>                  
                    <ul class="div-list">
                        <li class="list-item"><img src="images/tweeter.png" alt="follow me on twitter" width="20" height="20" ></li>
                        <li class="list-item"><img src="images/linkedin.png" alt="follow me on linkedin" width="20" height="20" ></li>
@@ -128,24 +145,27 @@
                        <li class="list-item"><img src="images/angelist.png" alt="follow me on angellist" width="20" height="20" ></li>
                    </ul>
                    <button class="btn-resume">Get my resume</button>
-                   <div class="flex-container">
+                 </div>
+
+                  <div class="div-skills">
                     <div class="flex-item">Languages <img src="images/right.png" ></div>
+                    <div class="div-list-lang">
                     <ul class="list-lang">
-                            <li class="list-lang-item"><image class="list-img" src="images/js.png" alt="jsicon" >JavaScript</li><br>
-                            <li class="list-lang-item"><image class="list-img" src="images/html.png" alt="jsicon" >HTML</li><br>
-                            <li class="list-lang-item"><image class="list-img" src="images/css.png" alt="jsicon" >CSS</li>
-                            
-                             
+                            <li class="list-lang-item"><div class="div-list-img"><image class="list-img" src="images/js.png" alt="jsicon" ><span class="caption">JavaScript</span></div></li><br>
+                            <li class="list-lang-item"><div class="div-list-img"><image class="list-img" src="images/html.png" alt="jsicon" ><span class="caption"></span>HTML</span></div></li><br>
+                            <li class="list-lang-item"><div class="div-list-img"><image class="list-img" src="images/css.png" alt="jsicon" ><span class="caption">CSS</span></div></li>                           
                     </ul>
-            
-                    <div class="flex-item">Frameworks <img src="images/right.png"></div>
-                    <div class="flex-item">Skills <img src="images/right.png"></div>
+                </div>
+                    <div class="flex-item1">Frameworks <img src="images/right.png"></div><hr>
+                    <div class="flex-item1">Skills <img src="images/right.png"></div><hr>
+                </div>
                    
-                   </div>
+                   
                 </div>
           </section>
 <!-- contact section -->
           <section class="contact-section">
+            
             <div class="div-contact">
               <h1 class="contact-header">Contact me</h1>
               <p class="contact-descr">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -157,7 +177,7 @@
                <input type="text" id="name" name="name-label" maxlength="30" placeholder="Enter your name" required>
                <input type="email" id="email" name="email-label"placeholder="Enter your email" required>
                <textarea id="textarea" name="text-area" maxlength="500" rows="6" cols="50" placeholder="Write your message here" required ></textarea>
-                <button class="btn-submit" type="submit">Get It Touch</button>
+                <button class="btn-submit" type="submit">Get in Touch</button>
             </div>
 
         </form>
