@@ -10,12 +10,35 @@
 
 @media only screen and (min-width: 768px) {
   .header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
     max-width: 30%;
     margin-top: 15rem;
   }
 
   .about-par {
     max-width: 65%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .work-section .lang-descr {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .section-img {
@@ -80,7 +103,7 @@
 }
 
 .first-page {
-  background-image: url('images/background.svg');
+  background-image: url('images/header.svg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -92,12 +115,11 @@
 
 @media screen and (min-width: 768px) {
   .first-page {
-    background-position: -9px -5px;
-    height: 100vh;
+    background-position: -89px -24px;
   }
 
   .div-header {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
@@ -199,7 +221,7 @@
   }
 
   .list-lang {
-    display: grid;
+    display: flex;
     flex-direction: row;
   }
 }
@@ -260,6 +282,7 @@
   color: #6b778c;
 }
 
+/* |||LISTS|| */
 @media screen and (min-width: 768px) {
   .descr-list-item {
     margin-left: 5px;
@@ -267,34 +290,48 @@
     text-align: right;
   }
 
-  .lang-list-descr {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    height: auto;
-    padding: 10px;
-  }
-
-  .flex-item {
+  .div-skills .flex-item {
     display: flex;
     flex-direction: row;
     flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #344563;
   }
 
-  .list-lang-item {
-    display: flex;
+  .div-skills .div-list-lang {
     width: 50%;
+  }
+
+  .div-skills .div-list-lang .list-lang {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    width: 20%;
     height: auto;
-    align-items: left;
+    position: relative;
+    text-align: bottom;
+  }
+
+  .div-skills .div-list-lang .div-list-img {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2rem;
+  }
+
+  .caption {
+    display: block;
   }
 
   .div-about .div-list {
     margin-top: 20px;
-  }
-
-  .list-lang {
-    display: flex;
   }
 }
 
@@ -395,6 +432,8 @@
   flex-direction: column;
   margin: 0 auto;
   height: 100vh;
+  background-color: #fff;
+  padding: 2rem;
 }
 
 .div-about .self-descr {
@@ -489,8 +528,9 @@
   padding-bottom: 1rem;
 }
 
+/* contact section */
 .contact-section {
-  background-image: url(images/contac-shape-bg.svg);
+  background-image: url(images/contact\ form\ background\ shapes.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
   background-position: 208px 44px;
@@ -584,9 +624,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  /*  ||CONTACT SECTION|| */
   .contact-section {
-    background-size: cover;
-    background-position: 200px 40px;
+    background-position: 25px 13px;
   }
 
   .div-contact {
