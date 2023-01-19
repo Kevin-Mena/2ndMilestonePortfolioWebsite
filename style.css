@@ -19,7 +19,6 @@
     letter-spacing: 0.37px;
     color: #091e42;
     max-width: 30%;
-    margin-top: 15rem;
   }
 
   .about-par {
@@ -201,6 +200,19 @@
     padding: 2rem;
   }
 
+  .card .work-header {
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card .card-info {
+    padding: 1.5rem;
+  }
+
+  .work-header .descr-list {
+    margin-top: 2rem;
+  }
+
   .about-myself .div-about {
     width: 90%;
     display: grid;
@@ -295,7 +307,6 @@
     flex-direction: row;
     flex: 1;
     margin-bottom: 2rem;
-    margin-top: 2rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -357,6 +368,7 @@
   width: 100%;
   padding: 0.5rem;
   height: 5vh;
+  margin-bottom: 2rem;
 }
 
 .lang-list-descr {
@@ -401,28 +413,23 @@
 
 .btn-project:hover,
 .btn-resume:hover {
-  background-color: royalblue;
+  background-color: #396df2;
   color: #fff;
+  opacity: 0.8;
 }
 
-@media screen and (min-width: 768px) {
-  .btn-fab {
-    background-color: #4053fc;
-    border-radius: 8px;
-    color: #fff;
-  }
-
-  .btn-fab:hover {
-    background-color: #fff;
-    color: #4053fc;
-  }
+.btn-project:active,
+.btn-resume:active {
+  background-color: #396df2;
+  color: #fff;
+  opacity: 0.6;
 }
 
 .about-myself {
   padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   background-color: #e5e5e5;
+  height: 20%;
 }
 
 .div-about {
@@ -431,9 +438,11 @@
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-  height: 100vh;
+  height: 70vh;
   background-color: #fff;
   padding: 2rem;
+  border-radius: 2rem;
+  align-items: flex-start;
 }
 
 .div-about .self-descr {
@@ -477,7 +486,8 @@
   padding-top: 2rem;
 }
 
-.flex-item {
+.flex-item,
+.flex-item1 {
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -487,6 +497,20 @@
   font-size: 20px;
   line-height: 24px;
   color: #000;
+}
+
+.flex-item1 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 20px;
+  color: #344563;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .grid-container {
@@ -650,9 +674,10 @@
   }
 
   .btn-submit {
-    padding: 10px;
+    padding: 8px;
     margin: 0 auto;
     margin-top: 1rem;
+    height: 40px;
   }
 
   .btn-resume {
