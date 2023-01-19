@@ -395,7 +395,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  background-color:  #FFFFFF;
+  background-color: #fff;
   align-items: center;
   padding: 12px;
   gap: 10px;
