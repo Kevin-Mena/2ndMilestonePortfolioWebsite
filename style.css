@@ -411,7 +411,6 @@
   font-size: 17px;
   line-height: 24px;
   margin-top: 2rem;
-  
 }
 
 .btn-project:hover,
@@ -420,17 +419,18 @@
   color: #fff;
   opacity: 0.8;
 }
-  
+
 .btn-project:active,
 .btn-resume:active {
   background-color: #396df2;
   color: #fff;
   opacity: 0.6;
 }
+
 .section-img:hover {
   transform: scale(1.1);
-
 }
+
 .about-myself {
   padding-top: 100px;
   display: flex;
