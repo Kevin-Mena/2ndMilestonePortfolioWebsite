@@ -21,7 +21,6 @@
     max-width: 30%;
   }
 
-
   .about-par {
     max-width: 65%;
     font-family: 'Poppins', sans-serif;
@@ -107,12 +106,13 @@
   align-items: center;
   text-align: center;
   color: #344563;
-  padding: 4px;animation-name: links_load;
+  padding: 4px;
+  animation-name: links_load;
   animation-duration: 6s;
 }
 
 @keyframes links_load {
-  0% { transform: translateX(200px);}
+  0% { transform: translateX(200px); }
 }
 
 .logo a {
