@@ -42,7 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Visit my website](https://kevin-mena.github.io/Personal-Portfolio-Website/)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -133,7 +133,7 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/Kevin-Mena)
 - Twitter: [@twitterhandle](https://twitter.com/Fmenawende)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kevin-okoth-19407119b/)
-
+- Website: [Visit my website](https://kevin-mena.github.io/Personal-Portfolio-Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
