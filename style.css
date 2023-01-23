@@ -63,11 +63,11 @@
   line-height: 20px;
   color: #6070ff;
   margin-left: 2rem;
-  animation-name: anime;
-  animation-duration: 3s;
+  /* animation-name: anime;
+  animation-duration: 3s; */
 }
 
-@keyframes anime {
+/* @keyframes anime {
   from {
     transform: rotate(180deg);
   }
@@ -75,7 +75,7 @@
   to {
     transform: rotate(90deg);
   }
-}
+} */
 
 /* .logo a:hover {
   transform: rotate(45deg) translateX(180px);
