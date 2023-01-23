@@ -90,6 +90,12 @@
   text-align: center;
   color: #344563;
   padding: 4px;
+  animation-name: links_load;
+  animation-duration: 6s;
+}
+
+@keyframes links_load {
+  0% { transform: translateX(200px); }
 }
 
 .logo a {
@@ -425,6 +431,10 @@
   background-color: #396df2;
   color: #fff;
   opacity: 0.6;
+}
+
+.section-img:hover {
+  transform: scale(1.1);
 }
 
 .about-myself {
