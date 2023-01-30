@@ -67,6 +67,7 @@
   line-height: 20px;
   color: #6070ff;
   margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 .nav-div {
@@ -865,11 +866,11 @@
     position: fixed;
     z-index: 100;
     right: 1rem;
-    top: 1rem;
     padding: 4px;
-    border: black solid 1px;
     background: white;
     cursor: pointer;
+    color: royalblue;
+    border: none;
   }
 
   .closeIcon {
@@ -878,20 +879,49 @@
 
   .menu {
     position: fixed;
-    transform: translateY(-100%);/* hide menu by default above the screen */
+    transform: translateY(-300%);/* hide menu by default above the screen */
     transition: transform 0.2s;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     z-index: 99;
     background: royalblue;
-    color: white;
     list-style: none;
     padding-top: 4rem;
+    color: black;
+    justify-content: center;
+    margin-top: 1rem;
   }
 
   .showMenu {/* ||show and hide menu|| */
     transform: translateY(0);/* //make menu slide down */
+    
   }
+  .menuItem {
+    color: black;
+    background-color: royalblue;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+
+  }
+.menuItem:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
