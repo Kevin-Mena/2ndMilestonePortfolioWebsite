@@ -23,17 +23,6 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 // hide menu if user clicks on the menu links
-/* menuItems.forEach((menuItem) => {
-  menuItem.addEventListener('click', toggleMenu);
-}); */
-
-function toggleMenuItem() {
-  if (menu.classList.contains('showMenu')) {
-    menu.classList.remove('showMenu');
-    closeIcon.style.display = 'none';
-    menuIcon.style.display = 'block';
-  }
-}
 menuItems.forEach((menuItem) => {
-  menuItem.addEventListener('click', toggleMenuItem);
+  menuItem.addEventListener('click', toggleMenu);
 });
