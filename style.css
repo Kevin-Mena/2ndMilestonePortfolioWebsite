@@ -844,17 +844,7 @@
     list-style-type: none;
   }
 
-  .list-lang-item {
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #6070ff;
-    align-items: center;
-  }
+
 
   .list-img {
     float: left;
