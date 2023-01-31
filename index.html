@@ -1,196 +1,240 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="style.css">
-           
-            <title>Kevin Mena Portfolio Web Homepage</title>
-        </head> 
-        <body>
-            
-        <header>
-      <!--  navigation bar -->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body>
-      <ul class="menu">
-        <li><a class="menuItem" href="#">Hello</a></li>
-        <li><a class="menuItem" href="#">Portfolio</a></li>
-        <li><a class="menuItem" href="#">About</a></li>
-        <li><a class="menuItem" href="#">Contacts</a></li>
-      </ul>
-      <button class="hamburger">
-        <i class="menuIcon material-icons">menu</i>
-        <i class="closeIcon material-icons">close</i>
-      </button>
-         </header>
-            <!--  header section -->
-             <section class="first-page">
-          <div class="div-header">
+<!DOCTYPE html>
+<html lang="en">
 
-           <h1 class="header">I'm Kevin Glad to see you!</h1>  
-         <p class="about-par">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-               
-                    <a class="connect-page">LET'S CONNECT</a>
-                <!-- social pages -->
-                <ul class="list">
-                    <li class="list-item"><a href="#"><img src="images/tweeter.png" alt="follow me on twitter" width="20" height="20" ></a></li>
-                    <li class="list-item"><a href="#"><img src="images/linkedin.png" alt="follow me on linkedin" width="20" height="20" ></a></li>
-                    <li class="list-item"><a href="#"><img src="images/medium.png" alt="follow me on medium" width="20" height="20" ></a></li>
-                    <li class="list-item"><a href="#"><img src="images/github.png" alt="follow me on github" width="20" height="20" ></a></li>
-                    <li class="list-item"><a href="#"><img src="images/angelist.png" alt="follow me on angellist" width="20" height="20" ></a></li>
-                </ul>
-            </div>
-        </section>  
-<!-- work section -->
-            <section class="work-section">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Kevin Mena Portfolio Web Homepage</title>
+</head>
 
-                <!-- ....card1 div.... -->
-               <div class="card card1">
+<body>
+
+    <header>
+        <!--  navigation bar -->
+        <div class="menuList" id="menuList">
+            <ul>
+                <li><a href="#main-section" id="menuButton1">Portfolio</a></li>
+                <li><a href="#aboutme" id="menuButton2">About</a></li>
+                <li><a href="#contact" id="menuButton3">Contact</a></li>
+            </ul>
+        </div>
+            <button class="hamburger">
+                <i class="menuIcon material-icons" id="menu">menu</i>
+                <i class="closeIcon material-icons" id="x">close</i>
+            </button>
+    </header>
+    <!--  header section -->
+    <section class="first-page">
+        <div class="div-header">
+
+            <h1 class="header">I'm Kevin Glad to see you!</h1>
+            <p class="about-par">I’m a software developer! I can help you build a product , feature or website Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+
+            <a class="connect-page">LET'S CONNECT</a>
+            <!-- social pages -->
+            <ul class="list">
+                <li class="list-item"><a href="#"><img src="images/tweeter.png" alt="follow me on twitter" width="20"
+                            height="20"></a></li>
+                <li class="list-item"><a href="#"><img src="images/linkedin.png" alt="follow me on linkedin" width="20"
+                            height="20"></a></li>
+                <li class="list-item"><a href="#"><img src="images/medium.png" alt="follow me on medium" width="20"
+                            height="20"></a></li>
+                <li class="list-item"><a href="#"><img src="images/github.png" alt="follow me on github" width="20"
+                            height="20"></a></li>
+                <li class="list-item"><a href="#"><img src="images/angelist.png" alt="follow me on angellist" width="20"
+                            height="20"></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- work section -->
+    <section class="work-section">
+
+        <!-- ....card1 div.... -->
+        <div class="card card1">
             <div class="section-img"><img src="images/snapshoot5.png" alt="Tonic interface"></div>
             <div class="card-info">
-            <h2 class="work-header">Tonic</h2>
-            <ul class="descr-list">
-                <li class="descr-list-item1">CANOPY</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png" alt="circle bullet">Back End Dev</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png" alt="circle bullet">2015</li>
-            </ul>
-            <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="lang-list">
-                <li class="lang-list-descr">html</li>
-                <li  class="lang-list-descr">css</li>
-                <li  class="lang-list-descr">javaScript</li>
-            </ul>
-            <button class="btn-project">See Project</button>
+                <h2 class="work-header">Tonic</h2>
+                <ul class="descr-list">
+                    <li class="descr-list-item1">CANOPY</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">Back End Dev</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">2015</li>
+                </ul>
+                <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.</p>
+                <ul class="lang-list">
+                    <li class="lang-list-descr">html</li>
+                    <li class="lang-list-descr">css</li>
+                    <li class="lang-list-descr">javaScript</li>
+                </ul>
+                <button class="btn-project">See Project</button>
+            </div>
         </div>
-        </div>
-       
+
         <!-- ....card2 div.... -->
         <div class="card card2">
-           
+
             <div class="card-info">
-            <h2 class="work-header">Multi-Post
-                Stories</h2>
-            <ul class="descr-list">
-                <li class="descr-list-item1">FACEBOOK</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png" alt="circle bullet">Full Stack Dev</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png" alt="circle bullet">2015</li>
-            </ul>
-            <p class="lang-descr">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-            <ul class="lang-list">
-                <li class="lang-list-descr">html</li>
-                <li class="lang-list-descr">Ruby on rails</li>
-                <li  class="lang-list-descr">css</li>
-                <li  class="lang-list-descr">javaScript</li>
-            </ul>
-            <button class="btn-project">See Project</button>
-        </div>
-        <div class="section-img"><img src="images/snapshoot4.png" alt="Multi-post Stories interface"></div>
+                <h2 class="work-header">Multi-Post
+                    Stories</h2>
+                <ul class="descr-list">
+                    <li class="descr-list-item1">FACEBOOK</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">Full Stack Dev</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">2015</li>
+                </ul>
+                <p class="lang-descr">Experimental content creation feature that allows users to add to an existing
+                    story over the course of a day without spamming their friends.</p>
+                <ul class="lang-list">
+                    <li class="lang-list-descr">html</li>
+                    <li class="lang-list-descr">Ruby on rails</li>
+                    <li class="lang-list-descr">css</li>
+                    <li class="lang-list-descr">javaScript</li>
+                </ul>
+                <button class="btn-project">See Project</button>
+            </div>
+            <div class="section-img"><img src="images/snapshoot4.png" alt="Multi-post Stories interface"></div>
         </div>
 
         <!-- ....card3 div.... -->
         <div class="card card3">
-           
+
             <div class="card-info">
-            <h2 class="work-header">Facebook 360</h2>
-            <ul class="descr-list">
-                <li class="descr-list-item1">FACEBOOK</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png" alt="circle bullet"> Full Stack Dev</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png" alt="circle bullet">2015</li>
-            </ul>
-            <p class="lang-descr">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-            <ul class="lang-list">
-                <li class="lang-list-descr">html</li>
-                <li class="lang-list-descr">Ruby on rails</li>
-                <li  class="lang-list-descr">css</li>
-                <li  class="lang-list-descr">javaScript</li>
-            </ul>
-            <button class="btn-project">See Project</button>
-        </div>
-        <div class="section-img"><img src="images/snapshoot1.png" alt="Facebook 360 interface"></div>
+                <h2 class="work-header">Facebook 360</h2>
+                <ul class="descr-list">
+                    <li class="descr-list-item1">FACEBOOK</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png" alt="circle bullet">
+                        Full Stack Dev</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">2015</li>
+                </ul>
+                <p class="lang-descr">Exploring the future of media in Facebook's first Virtual Reality app; a place to
+                    discover and enjoy 360 photos and videos on Gear VR.</p>
+                <ul class="lang-list">
+                    <li class="lang-list-descr">html</li>
+                    <li class="lang-list-descr">Ruby on rails</li>
+                    <li class="lang-list-descr">css</li>
+                    <li class="lang-list-descr">javaScript</li>
+                </ul>
+                <button class="btn-project">See Project</button>
+            </div>
+            <div class="section-img"><img src="images/snapshoot1.png" alt="Facebook 360 interface"></div>
         </div>
 
-      <!-- ....card4 div.... -->
+        <!-- ....card4 div.... -->
 
         <div class="card card4">
-            
-            <div class="card-info">
-            <h2 class="work-header">Uber Navigation</h2>
-            <ul class="descr-list">
-                <li class="descr-list-item1">Uber</li>
-                <li class="descr-list-item"><img class="counter-img" src="images/Counter.png" alt="circle bullet">Lead Developer</li>
-                <li class="descr-list-item"><img class="counter-img"src="images/Counter.png" alt="circle bullet">2018</li>
-            </ul>
-            <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="lang-list">
-                <li class="lang-list-descr">html</li>
-                <li  class="lang-list-descr">css</li>
-                <li  class="lang-list-descr">javaScript</li>
-            </ul>
-            <button class="btn-project">See Project</button>
-        </div>
-        <div class="section-img"><img src="images/snapshoot2.png" alt="Uber navigatino interface"></div>
-        </div>
-    </section> 
-<!-- about section -->
-          <section class="about-myself">
-            <div class="div-about">
-                <div class="div-descr">
-            <h2 class="about-header">About Myself</h2>  
-            <p class="self-descr">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                  
-                       <a class="connect-page">LET'S CONNECT</a>                  
-                   <ul class="div-list">
-                       <li class="list-item"><a href="#"><img src="images/tweeter.png" alt="follow me on twitter" width="20" height="20" ></a></li>
-                       <li class="list-item"><a href="#"><img src="images/linkedin.png" alt="follow me on linkedin" width="20" height="20" ></a></li>
-                       <li class="list-item"><a href="#"><img src="images/medium.png" alt="follow me on medium" width="20" height="20" ></a></li>
-                       <li class="list-item"><a href="#"><img src="images/github.png" alt="follow me on github" width="20" height="20" ></a></li>
-                       <li class="list-item"><a href="#"><img src="images/angelist.png" alt="follow me on angellist" width="20" height="20" ></a></li>
-                   </ul>
-                   <button class="btn-resume">Get my resume</button>
-                 </div>
 
-                  <div class="div-skills">
-                    <div class="flex-item">Languages <img src="images/right.png" alt="expand content icon"></div>
-                    <div class="div-list-lang">
+            <div class="card-info">
+                <h2 class="work-header">Uber Navigation</h2>
+                <ul class="descr-list">
+                    <li class="descr-list-item1">Uber</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">Lead Developer</li>
+                    <li class="descr-list-item"><img class="counter-img" src="images/Counter.png"
+                            alt="circle bullet">2018</li>
+                </ul>
+                <p class="lang-descr">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.</p>
+                <ul class="lang-list">
+                    <li class="lang-list-descr">html</li>
+                    <li class="lang-list-descr">css</li>
+                    <li class="lang-list-descr">javaScript</li>
+                </ul>
+                <button class="btn-project">See Project</button>
+            </div>
+            <div class="section-img"><img src="images/snapshoot2.png" alt="Uber navigatino interface"></div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about-myself">
+        <div class="div-about">
+            <div class="div-descr">
+                <h2 class="about-header">About Myself</h2>
+                <p class="self-descr">Hello I’m a software developer! I can help you build a product , feature or
+                    website Look through some of my work and experience! If you like what you see and have a project you
+                    need coded, don’t hestiate to contact me.</p>
+
+                <a class="connect-page">LET'S CONNECT</a>
+                <ul class="div-list">
+                    <li class="list-item"><a href="#"><img src="images/tweeter.png" alt="follow me on twitter"
+                                width="20" height="20"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/linkedin.png" alt="follow me on linkedin"
+                                width="20" height="20"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/medium.png" alt="follow me on medium" width="20"
+                                height="20"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/github.png" alt="follow me on github" width="20"
+                                height="20"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/angelist.png" alt="follow me on angellist"
+                                width="20" height="20"></a></li>
+                </ul>
+                <button class="btn-resume">Get my resume</button>
+            </div>
+
+            <div class="div-skills">
+                <div class="flex-item">Languages <img src="images/right.png" alt="expand content icon"></div>
+                <div class="div-list-lang">
                     <ul class="list-lang">
-                            <li class="list-lang-item"><div class="div-list-img"><image class="list-img" src="images/js.png" alt="javascript icon" ><span class="caption">JavaScript</span></div></li>
-                            <li class="list-lang-item"><div class="div-list-img"><image class="list-img" src="images/html.png" alt="html icon" ><span class="caption"></span>HTML</span></div></li>
-                            <li class="list-lang-item"><div class="div-list-img"><image class="list-img" src="images/css.png" alt="css icon" ><span class="caption">CSS</span></div></li>                           
+                        <li class="list-lang-item">
+                            <div class="div-list-img">
+                                <image class="list-img" src="images/js.png" alt="javascript icon"><span
+                                        class="caption">JavaScript</span>
+                            </div>
+                        </li>
+                        <li class="list-lang-item">
+                            <div class="div-list-img">
+                                <image class="list-img" src="images/html.png" alt="html icon"><span
+                                        class="caption"></span>HTML</span>
+                            </div>
+                        </li>
+                        <li class="list-lang-item">
+                            <div class="div-list-img">
+                                <image class="list-img" src="images/css.png" alt="css icon"><span
+                                        class="caption">CSS</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                    <div class="flex-item1">Frameworks <img src="images/right.png" alt="expand content icon"></div><hr>
-                    <div class="flex-item1">Skills <img src="images/right.png" alt="expand content icon"></div><hr>
-                </div>
-                   
-                   
-                </div>
-          </section>
-<!-- contact section -->
-          <section class="contact-section">
-            
-            <div class="div-contact">
-              <h1 class="contact-header">Contact me</h1>
-              <p class="contact-descr">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <div class="flex-item1">Frameworks <img src="images/right.png" alt="expand content icon"></div>
+                <hr>
+                <div class="flex-item1">Skills <img src="images/right.png" alt="expand content icon"></div>
+                <hr>
             </div>
 
-           <div class="wrapper">
-             <form action="https://formspree.io/f/xrgvbqro" method="post" class="contact-form">
-             
-               <input type="text" id="name" name="name-label" maxlength="30" placeholder="Enter your name" required>
-               <input type="email" id="email" name="email-label"placeholder="Enter your email" required>
-               <textarea id="textarea" name="text-area" maxlength="500" rows="6" cols="50" placeholder="Write your message here" required ></textarea>
+
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact-section">
+
+        <div class="div-contact">
+            <h1 class="contact-header">Contact me</h1>
+            <p class="contact-descr">If you have an application you are interested in developing, a feature that you
+                need built or a project that needs coding. I’d love to help with it </p>
+        </div>
+
+        <div class="wrapper">
+            <form action="https://formspree.io/f/xrgvbqro" method="post" class="contact-form">
+
+                <input type="text" id="name" name="name-label" maxlength="30" placeholder="Enter your name" required>
+                <input type="email" id="email" name="email-label" placeholder="Enter your email" required>
+                <textarea id="textarea" name="text-area" maxlength="500" rows="6" cols="50"
+                    placeholder="Write your message here" required></textarea>
                 <button class="btn-submit" type="submit">Get in Touch</button>
-            </div>
+        </div>
 
-          </form>
+        </form>
 
 
-         </section>
-         <script src="script.js"></script>
-        </body>
-     </html>         
+    </section>
+    <script src="index.js"></script>
+</body>
 
-        
+</html>

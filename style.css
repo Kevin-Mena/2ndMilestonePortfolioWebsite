@@ -855,5 +855,27 @@
   padding-right: 1rem;
   padding-bottom: 1rem;
 }
+.menuList {
+  width: 100%;
+  height: 100vh;
+  background: #6070ff;
+  padding: 4rem 2rem;
+  transition: 3s;
+  margin-top: -200vh;
+  position: absolute;
+  opacity: 95%;
+}
+
+.menuList li {
+  line-height: 2rem;
+}
+
+.menuList a {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 70px;
+  color: #fff;
+}
+
 
 }
