@@ -871,6 +871,7 @@
     cursor: pointer;
     color: royalblue;
     border: none;
+    
   }
 
   .closeIcon {
@@ -880,17 +881,20 @@
   .menu {
     position: fixed;
     transform: translateY(-300%);/* hide menu by default above the screen */
-    transition: transform 0.2s;
+    transition: transform 1s ease-in-out;
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     z-index: 99;
     background: royalblue;
     list-style: none;
     padding-top: 4rem;
-    color: black;
     justify-content: center;
     margin-top: 1rem;
+    opacity: 0.9;
+    filter:(blur(2px));
+    
   }
 
   .showMenu {/* ||show and hide menu|| */
@@ -898,20 +902,17 @@
     
   }
   .menuItem {
-    color: black;
-    background-color: royalblue;
+    color: #fff;
     display: flex;
-    padding: 2rem;
-    justify-content: center;
+    justify-content: flex-start;
+    font-size: 28px;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+    z-index: -100;
+    
 
   }
-.menuItem:hover {
-  background-color: white;
-  color: black;
-  border: 1px solid white;
-  border-radius: 3px;
-  cursor: pointer;
-}
+
 }
 
 
