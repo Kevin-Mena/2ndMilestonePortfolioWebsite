@@ -867,10 +867,10 @@
     z-index: 100;
     right: 1rem;
     padding: 4px;
-    background: white;
     cursor: pointer;
     color: royalblue;
     border: none;
+    background-color: #fff;
     
   }
 
@@ -878,7 +878,7 @@
     display: none;
   }
 
-  .menu {
+  .mobile-menu {
     position: fixed;
     transform: translateY(-300%);/* hide menu by default above the screen */
     transition: transform 1s ease-in-out;
@@ -893,15 +893,17 @@
     justify-content: center;
     margin-top: 1rem;
     opacity: 0.9;
-    filter:(blur(2px));
+    backdrop-filter:blur(10px);
+    color: #fff;
     
   }
 
   .showMenu {/* ||show and hide menu|| */
     transform: translateY(0);/* //make menu slide down */
+    opacity: 0.8;
     
   }
-  .menuItem {
+  .logo .menuItem {
     color: #fff;
     display: flex;
     justify-content: flex-start;
