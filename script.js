@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.navlink');
 const divHeader = document.querySelector('.divHeader');
-const section = document.querySelector('section')
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
