@@ -1,14 +1,15 @@
-// Select elements
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.navlink');
-// const span = document.getElementsByClassName('bar')[2];
-// Add Event Listener
+const divHeader = document.querySelector('.divHeader');
+
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('show');
+  divHeader.style.filter = 'blur(7px)';
 });
-// Iterate through the navlink
+
 document.querySelectorAll('.navlink').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('show');
+  divHeader.style.filter = 'blur(0)';
 }));
