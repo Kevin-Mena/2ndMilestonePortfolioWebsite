@@ -1,3 +1,4 @@
+// mobile menu
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.navlink');
 hamburger.addEventListener('click', () => {
@@ -9,7 +10,7 @@ document.querySelectorAll('.navlink').forEach((n) => n.addEventListener('click',
   navMenu.classList.remove('show');
 }));
 
-// create object array
+// Pop up Window
 const array = [
   {
     mobileTopic: 'Tonic',
@@ -18,7 +19,7 @@ const array = [
     desktopImage: 'img/first.png',
     desktopdesc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-    1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.
+    1960s with the releoregom Ipsum is simply dummy text of the printing and typesetting industry.
     Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
     Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
@@ -91,7 +92,7 @@ const array = [
 const extra = document.querySelector('#extra');
 const project = document.querySelectorAll('#expand');
 function display(main, i) {
-  const play = `<div class="content">
+  const popup = `<div class="content">
       <div class="top">
         <h2 class="mobile">${main[i].mobileTopic}</h2>
         <h2 class="desktop">${main[i].desktopTopic}</h2>
@@ -124,6 +125,7 @@ function display(main, i) {
             <li>javascript</li>
             <li>css</li>
             </div>
+            
             <li class="desktop">ruby </li>
             <li class="desktop">github</li>
             <li class="desktop">bootstrap</li>
@@ -141,10 +143,10 @@ function display(main, i) {
         </div>
         <img src="img/cancel.png" alt="To close panel" id="cancel-port"/>
       </div>`;
-  const lay = document.createElement('div');
-  lay.classList.add('popup');
-  lay.innerHTML = play;
-  extra.appendChild(lay);
+  const displayPopup = document.createElement('div');
+  displayPopup.classList.add('popup');
+  displayPopup.innerHTML = popup;
+  extra.appendChild(displayPopup);
 }
 project.forEach((pro, index) => {
   pro.addEventListener('click', () => {
@@ -154,6 +156,7 @@ project.forEach((pro, index) => {
         display(array, i);
         const view = document.querySelector('.popup');
         view.classList.add('show');
+
         const canc = view.querySelector('#cancel-port');
         canc.addEventListener('click', () => {
           extra.removeChild(view);
