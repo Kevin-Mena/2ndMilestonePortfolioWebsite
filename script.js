@@ -12,16 +12,20 @@ document.querySelectorAll('.navlink').forEach((n) => n.addEventListener('click',
 // form validation
 const form = document.querySelector('form');
 const email = document.querySelector('#email');
+const successMessage = document.querySelector('#succMsg');
 const errorMessage = document.querySelector('#errMsg');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const emailLowerCase = email.value;
   if (emailLowerCase.toLowerCase() === emailLowerCase) {
+    successMessage.textContent = 'Email in required letter case!';
+    successMessage.style.color = '#00ff00';
     form.submit();
   } else {
     errorMessage.textContent = 'Please enter email in lowercase!';
     errorMessage.style.color = '#ff0000';
+    email.style.border = '2px solid #ff0000';
   }
 });
 
