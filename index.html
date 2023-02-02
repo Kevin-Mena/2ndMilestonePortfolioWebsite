@@ -328,10 +328,11 @@
                         <label for="name">Full name:</label>
                         <input type="text" name="name" placeholder="Enter name" maxlength="30" required aria-required="true">
                         <label for="email">Email:</label>
-                        <input type="email" name="email" placeholder="Enter email" required aria-required="true"> 
+                        <input type="email" name="email" id="email" placeholder="Enter email" required aria-required="true"> 
                         <label for="message">Type your message:</label> 
                         <textarea name="message" placeholder="Write your message here" maxlength="500" aria-required="true"
                             required></textarea>
+                            <div id="errMsg"></div>
                         <div class="btnn">
                             <button type="submit" class="buttonaction">Get In Touch</button>
                         </div>
