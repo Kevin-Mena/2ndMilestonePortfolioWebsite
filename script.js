@@ -1,4 +1,3 @@
-// mobile menu
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.navlink');
 hamburger.addEventListener('click', () => {
@@ -10,7 +9,7 @@ document.querySelectorAll('.navlink').forEach((n) => n.addEventListener('click',
   navMenu.classList.remove('show');
 }));
 
-// Pop up Window
+// create object array
 const array = [
   {
     mobileTopic: 'Tonic',
