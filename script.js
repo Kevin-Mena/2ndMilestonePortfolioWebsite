@@ -195,9 +195,16 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-window.addEventListener('load', () => {
-  const outputObj = JSON.parse(localStorage.getItem('userdata'));
-  userEmail.value = outputObj.email;
-  fullName.value = outputObj.name;
-  userComment.value = outputObj.comment;
+// Form local Storage
+const fullName = document.querySelector('#name');
+const userEmail = document.querySelector('#email');
+const userComment = document.querySelector('#message');
+
+form.addEventListener('submit', () => {
+  const userData = {
+    full_name: fullName.value,
+    user_email: userEmail.value,
+    user_comment: userComment.value,
+  };
+  localStorage.setItem('userdata', JSON.stringify(userData));
 });
