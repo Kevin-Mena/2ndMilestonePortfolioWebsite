@@ -166,13 +166,14 @@ project.forEach((pro, index) => {
   });
 });
 
-// form validation
+// form validation and localStorage
 const form = document.querySelector('form');
 const email = document.querySelector('#email');
 const errorMessage = document.querySelector('#errMsg');
 const fullName = document.querySelector('#name');
 const userEmail = document.querySelector('#email');
 const userComment = document.querySelector('#message');
+
 const userData = {
   name: '',
   email: '',
