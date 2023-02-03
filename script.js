@@ -182,3 +182,22 @@ form.addEventListener('submit', (event) => {
     email.style.border = '2px solid #ff0000';
   }
 });
+
+// Form local Storage
+const fullName = document.querySelector('#name');
+const userEmail = document.querySelector('#email');
+const userComment = document.querySelector('#message');
+
+form.addEventListener('submit', () => {
+  const userData = {
+    full_name: fullName.value,
+    user_email: userEmail.value,
+    user_comment: userComment.value,
+  };
+  localStorage.setItem('userdata', JSON.stringify(userData));
+});
+const storedUserData = JSON.parse(localStorage.getItem('userdata'));
+
+fullName.value = storedUserData[fullName];
+userEmail.value = storedUserData[userEmail];
+userComment.value = storedUserData[userComment];
