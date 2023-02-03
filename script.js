@@ -170,11 +170,23 @@ project.forEach((pro, index) => {
 const form = document.querySelector('form');
 const email = document.querySelector('#email');
 const errorMessage = document.querySelector('#errMsg');
+const fullName = document.querySelector('#name');
+const userEmail = document.querySelector('#email');
+const userComment = document.querySelector('#message');
+const userData = {
+  name: '',
+  email: '',
+  comment: '',
+};
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-
   const emailLowerCase = email.value;
   if (emailLowerCase.toLowerCase() === emailLowerCase) {
+    localStorage.clear();
+    userData.email = userEmail.value;
+    userData.name = fullName.value;
+    userData.comment = userComment.value;
+    localStorage.setItem('userdata', JSON.stringify(userData));
     form.submit();
   } else {
     errorMessage.textContent = 'Please enter email in lowercase!';
@@ -183,21 +195,9 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// Form local Storage
-const fullName = document.querySelector('#name');
-const userEmail = document.querySelector('#email');
-const userComment = document.querySelector('#message');
-
-form.addEventListener('submit', () => {
-  const userData = {
-    full_name: fullName.value,
-    user_email: userEmail.value,
-    user_comment: userComment.value,
-  };
-  localStorage.setItem('userdata', JSON.stringify(userData));
+window.addEventListener('load', () => {
+  const outputObj = JSON.parse(localStorage.getItem('userdata'));
+  userEmail.value = outputObj.email;
+  fullName.value = outputObj.name;
+  userComment.value = outputObj.comment;
 });
-const storedUserData = JSON.parse(localStorage.getItem('userdata'));
-
-fullName.value = storedUserData[fullName];
-userEmail.value = storedUserData[userEmail];
-userComment.value = storedUserData[userComment];
