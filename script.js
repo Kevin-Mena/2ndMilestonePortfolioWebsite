@@ -188,6 +188,8 @@ const fullName = document.querySelector('#name');
 const userEmail = document.querySelector('#email');
 const userComment = document.querySelector('#message');
 
+
+//Client email and name automatic addition
 form.addEventListener('submit', () => {
   const userData = {
     full_name: fullName.value,
