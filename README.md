@@ -163,7 +163,7 @@ If you like this project,give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me the uttermost opportunity to learn Full Stack Web Development🙏
+Thanks to everyone whose idea and codebase was used in this project🙏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
